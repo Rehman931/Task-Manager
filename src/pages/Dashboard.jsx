@@ -32,7 +32,7 @@ const Dashboard = () => {
     if (jwtToken) {
       async function fetchAuth() {
         try {
-          const response = await fetch("http:///my-task-backend-hsio.onrender.com/dashboard/auth", {
+          const response = await fetch("http://my-task-backend-hsio.onrender.com/dashboard/auth", {
             method: "GET",
             headers: {
               "Content-Type": "application/json",
