@@ -14,7 +14,7 @@ const Loginpage = ({ setJwtToken }) => {
   const LoginSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch("http:///my-task-backend-hsio.onrender.com/login/auth", {
+      const res = await fetch("http://my-task-backend-hsio.onrender.com/login/auth", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
