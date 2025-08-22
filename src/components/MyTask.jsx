@@ -24,7 +24,7 @@ const MyTask = ({ data }) => {
   // ✅ Delete task
   const DeleteFunc = async (id) => {
     try {
-      const res = await fetch(`http://my-task-backend-hsio.onrender.com/DeleteTask?_id=${id}`, {
+      const res = await fetch(`https://my-task-backend-hsio.onrender.com/DeleteTask?_id=${id}`, {
         method: "DELETE",
         headers: { "Content-Type": "application/json" },
       });
