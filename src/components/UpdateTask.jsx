@@ -16,7 +16,7 @@ const UpdateTask = ({ task, setUpdateTask, setUpdate }) => {
     if (priority !== task.priority) updatedFields.priority = priority;
 
     try {
-      const res = await fetch(`http:///my-task-backend-hsio.onrender.com/UpdateTask`, {
+      const res = await fetch(`http://my-task-backend-hsio.onrender.com/UpdateTask`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(updatedFields),
