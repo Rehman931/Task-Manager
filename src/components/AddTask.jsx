@@ -10,7 +10,7 @@ const AddTask = ({ setAdd, data }) => {
     const jwtToken = localStorage.getItem("token"); // get JWT
 
     try {
-      const res = await fetch("http:///my-task-backend-hsio.onrender.com/AddTask", {
+      const res = await fetch("http://my-task-backend-hsio.onrender.com/AddTask", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
