@@ -12,7 +12,7 @@ const LandingPage = () => {
   return (
     <div className="min-h-screen flex flex-col bg-white text-gray-900">
       {/* Navbar */}
-      <header className="flex justify-between items-center px-8 py-5 bg-orange-500 text-white shadow-md">
+      <header className="flex justify-between items-center px-1 py-5 bg-orange-500 text-white shadow-md">
         <h1 className="text-3xl font-extrabold tracking-wide">
           TaskFlow
         </h1>
