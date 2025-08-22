@@ -47,7 +47,7 @@ const MyTask = ({ data }) => {
     <div className="w-full h-full p-4 shadow-sm font-sans leading-relaxed text-gray-800">
       {/* === Header/Search === */}
       <header className="w-full flex flex-col sm:flex-row items-center gap-3 justify-end mb-4">
-        <div className="bg-white shadow-md rounded-md flex flex-row items-center justify-between p-2 gap-2 relative">
+        <div className="bg-white shadow-md rounded-md flex flex-row items-center justify-between p-2 gap-2">
           <input
             type="text"
             name="SearchTask"
